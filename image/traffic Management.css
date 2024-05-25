@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(/image/WhatsApp\ Image\ 2024-05-17\ at\ 14.53.54_2ac17dd5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.699);
+    
+}
+.container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main{
+    width: 70%;
+    height: 500px;
+    /* border: 2px solid black;   */
+    background-image: url(/image/Traffic-management-system-lights-.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.699);
+    box-shadow: 2px 2px 2px 2px black;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form, #searchBar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form input, #searchBar {
+    margin-right: 10px;
+    padding: 5px;
+}
+#offenderName{
+    background-color: transparent;
+    color: white;
+}
+#offense{
+    background-color: transparent;
+    color: white;
+}
+#searchBar{
+    background-color: transparent;
+    color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: green;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    background-color: none;
+}
+#offendersList{
+    background-color: rgba(0, 0, 0, 0.199);
+    color: white;
+}

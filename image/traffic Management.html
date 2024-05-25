@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Offender Management System</title>
+    <link rel="stylesheet" href="traffic Management.css">
+</head>
+<body>
+   <div class="container">
+    <div class="main">
+        <h1>Traffic Management System</h1>
+
+        <form id="offenderForm">
+            <input type="text" id="offenderName" placeholder="Offender Name" required>
+            <input type="text" id="offense" placeholder="Offense" required>
+            <button type="submit">Add Offender</button>
+        </form>
+    
+        <input type="text" id="searchBar" placeholder="Search Offenders">
+    
+        <table id="offendersTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Offense</th>g
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="offendersList">
+            </tbody>
+        </table>
+    </div>
+   </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="traffic Management.js"></script>
+</body>
+</html>
